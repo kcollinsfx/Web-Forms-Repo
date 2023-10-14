@@ -1,2 +1,28 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Ignore Visual Studio files and directories
+.vscode/
+.vs/
+/bin/
+/obj/
+*.user
+*.suo
+*.sln.docstates
+
+# Ignore build output
+/bin/
+/obj/
+
+# Ignore NuGet package directory
+/packages/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.suo
+*.user
+*.userprefs
+
+# Ignore publish profiles and Web.config transforms
+*.pubxml
+*.publishproj
+*pubs
+*.config
